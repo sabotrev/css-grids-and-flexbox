@@ -6,6 +6,10 @@ ul {
 	padding: 0;
 	margin: 0;
 	border: 1px dotted red;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: space-around; /* center -> preserves the height */
 }
 li {
 	border: 1px solid #999;
@@ -13,9 +17,8 @@ li {
 	padding: 0.5em;
 }
 
-
-
-
-
-
-
+.flex2 {
+	border: 2px dotted blue;
+	order: 2;
+	flex: 2 1 25%;
+}
