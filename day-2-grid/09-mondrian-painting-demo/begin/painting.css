@@ -3,7 +3,7 @@
   width: 600px;
   height: 600px;
   background: url(painting.png) no-repeat;
- 
+  display: grid;
 }
 div {
 	border: 1px solid black;
@@ -11,25 +11,39 @@ div {
 	opacity: 0.5;
 }
 .a {
-
+  background-color: white;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
 }
 .b {
-
+  background-color: white;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
 }
 .c {
-
+  background-color: red;
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
 }
 .d {
-
+  background-color: blue;
+  grid-column: 1 / 2;
+  grid-row: 3 / 5;
 }
 .e {
-
+  background-color: white;
+  grid-column: 2 / 3;
+  grid-row: 3 / 5;
 }
 .f {
-
+  background-color: white;
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
 }
 .g {
-	
+  background-color: yellow;
+  grid-column: 3 / 4;
+  grid-row: 4 / 5;
 }
 
 
